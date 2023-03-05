@@ -6,6 +6,10 @@ public class App {
 
     public void addData(String name) {
         System.out.println("Data = " +name);
+
+        if (name.equals("Eswar")) {
+            System.out.println("welcome");
+        }
     }
 
     public static void main(String[] args) {
