@@ -11,7 +11,10 @@ public class App {
             System.out.println("welcome");
         }
 
-
+    }
+    
+    public void addData2() {
+          System.out.println("commit in repo");
     }
 
     public static void main(String[] args) {
