@@ -7,7 +7,7 @@ public class App {
     public void addData(String name) {
         System.out.println("Data = " +name);
 
-        if (name.equals("Eswar")) {
+        if (name.equals(appconst.name)) {
             System.out.println("welcome");
         }
 
